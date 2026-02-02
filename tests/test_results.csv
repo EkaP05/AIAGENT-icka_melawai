@@ -1,0 +1,71 @@
+id,difficulty,question,golden_answer,model_answer,score,latency_ms
+1,easy,berapa claim kacamata untuk seorang manager?,Plafon klaim kacamata untuk Level Lead–Manager adalah maksimal Rp 2.500.000 setiap 2 tahun sekali.,"1. Berdasarkan Konteks:
+
+Untuk klaim kacamata, perusahaan memberikan penggantian biaya pembelian lensa dan bingkai kacamata setiap 2 tahun sekali dengan plafon maksimal:
+- Level Staff - Senior: Maksimal Rp 1.500.000,-
+- Level Lead - Manager: Maksimal Rp 2.500.000,-
+- Level VP - C-Level: Maksimal Rp 4.000.000,-
+
+Untuk seorang manager, level jabatan yang relevan adalah ""Level Lead - Manager"", sehingga klaim kacamata maksimal untuk seorang manager adalah Rp 2.500.000,-.
+
+2. Syarat/Batasan:
+Syarat utama dalam ini adalah bahwa penggantian biaya kacamata hanya berlaku setiap 2 tahun sekali, dan klaim harus dilakukan sebelum plafon maksimal habis.",1.0,12849.36
+2,easy,jam kerja core hours perusahaan kapan?,Core hours perusahaan adalah pukul 10.00–15.00 WIB pada hari Senin sampai Jumat.,"Maaf, saya hanya dapat membantu menjawab pertanyaan terkait kebijakan internal perusahaan.",0.0,1659.09
+3,easy,cuti tahunan berapa hari?,Jatah cuti tahunan adalah 12 hari kerja per tahun.,"1. Berdasarkan kebijakan HR yang ada, jatah cuti tahunan adalah 12 hari kerja untuk karyawan dengan masa kerja di bawah 3 tahun dan 18 hari kerja untuk karyawan dengan masa kerja di atas 3 tahun. Bagi karyawan dengan masa kerja di atas 3 tahun, mendapatkan tambahan cuti loyalitas sebesar 1 hari per tahun, dengan batas maksimal total cuti 18 hari.
+
+Syarat utama: Masa kerja karyawan di bawah 3 tahun atau di atas 3 tahun.
+
+2. Informasi tentang jam kerja tidak tercantum dalam dokumen yang diberikan.",1.0,10322.43
+4,easy,hari wajib WFO divisi Tech kapan?,Hari wajib WFO untuk seluruh divisi Tech & Product adalah setiap hari Rabu.,"1) Menurut Dokumen 2, hari wajib Work From Office (WFO) bagi seluruh divisi Tech & Product adalah setiap hari Rabu.
+
+2) Syarat utama untuk kebijakan ini adalah karyawan harus memiliki level jabatan yang sesuai.",1.0,10254.26
+5,easy,WFA maksimal berapa hari per semester?,Program WFA dapat diajukan selama maksimal 10 hari kerja per semester oleh karyawan yang sudah melewati masa probation 3 bulan.,"1) Program ""Work From Anywhere"" (WFA) memungkinkan karyawan untuk bekerja dari luar kota/negeri selama maksimal 10 hari kerja per semester.
+
+2) Syarat utama untuk mengajukan WFA adalah telah melewati masa percobaan (probation) 3 bulan.",1.0,10315.25
+6,medium,"saya manager kacamata rusak berapa uang maksimal claim, softlens warna bisa?","Sebagai Level Lead–Manager, kamu bisa klaim kacamata maksimal Rp 2.500.000 setiap 2 tahun, tetapi softlens warna tidak ditanggung.","1. Klaim kacamata (optical) dapat dipenuhi dengan biaya maksimal Rp 4.000.000, - untuk Level VP - C-Level dan Rp 2.500.000, - untuk Level Lead - Manager.
+
+2. Klaim kacamata softlens warna tidak ditanggung oleh perusahaan.",1.0,10258.82
+7,medium,cuti loyalitas berapa hari dan syaratnya apa?,"Cuti loyalitas menambah 1 hari cuti per tahun bagi karyawan dengan masa kerja di atas 3 tahun, dengan batas total maksimal cuti tahunan 18 hari.","1) Cuti loyalitas adalah 1 hari per tahun, dengan batas maksimal total cuti 18 hari. Syaratnya adalah karyawan harus memiliki masa kerja di atas 3 (tiga) tahun.",1.0,9752.08
+8,medium,staff senior WFO berapa hari seminggu?,Karyawan Level Staff dan Senior wajib melakukan WFO minimal 2 hari dalam seminggu.,"1. Berdasarkan kebijakan HR, staff senior diperlukan melakukan Work From Office (WFO) minimal 2 (dua) hari dalam seminggu.
+
+Syarat utama: Karyawan Level Staff & Senior wajib melakukan WFO minimal 2 (dua) hari dalam seminggu untuk keperluan koordinasi.",1.0,10586.43
+9,medium,lembur dapat apa saja karyawan exempt?,"Karyawan Level Supervisor ke atas (Exempt) tidak berhak atas upah lembur, tetapi akan mendapatkan kompensasi berupa meal allowance sebesar Rp 75.000 jika bekerja di kantor melebihi pukul 21.00 WIB.","1) Menurut Dokumen 2, pasal 3.1, karyawan yang diberi kebijakan untuk mendapatkan kompensasi biaya pembelian lensa dan bingkai kacamata setiap 2 tahun sekali hanya dapat menggunakan sistem penggantian biaya dengan plafon tertentu yaitu:
+
+- Level Staff - Senior: Maksimal Rp 1.500.000, -
+- Level Lead - Manager:  Maksimal Rp 2.500.000, -
+- Level VP - C-Level: Maksimal Rp 4.000.000, -
+
+Selain itu, klaim kacamata hitam (sunglasses) atau lensa kosmetik (softlens warna) tidak ditanggung.
+
+Jawaban kedua menjelaskan syarat utama dalam pasal tersebut adalah bahwa plafon penggantian biaya untuk karyawan Level Staff - Senior, Level Lead - Manager, dan Level VP - C-Level diatur secara terpisah.",0.0,13275.23
+10,medium,data sensitif boleh dimasukkan ChatGPT gratis?,"Tidak boleh; data internal perusahaan, kode program, data nasabah, dan strategi bisnis rahasia dilarang keras dimasukkan ke tools AI publik seperti ChatGPT Free.","Maaf, saya hanya dapat membantu menjawab pertanyaan terkait kebijakan internal perusahaan.",1.0,1633.61
+11,medium,cuti recharge wajib diambil kapan?,"Cuti recharge wajib diambil sebagai blok 5 hari kerja berturut-turut Senin–Jumat sekali dalam setahun, untuk karyawan yang telah bekerja minimal 12 bulan berturut-turut, dan cuti ini memotong jatah cuti tahunan.","1) Menurut kebijakan yang berlaku, cuti Recharge (Cuti Wajib) harus diambil setiap tahun sekali, pada tanggal tertentu, yaitu selama 5 hari kerja berturut-turut (Senin-Jumat). 
+2) Tidak ada batasan waktu khusus untuk mengambil Cuti Recharge, hanya bahwa ia harus diambil sebelum akhir tahun dan tidak dapat mengalihkan jatah cuti tahunan.",0.5,9437.09
+12,medium,VP claim kacamata berapa rupiah?,Plafon klaim kacamata untuk Level VP–C-Level adalah maksimal Rp 4.000.000 setiap 2 tahun sekali.,"1) Klaim kacamata (Optical) untuk VP-CLevel sebesar maksimal Rp 4.000.000, -.
+
+2) Syarat utama adalah perusahaan memberikan penggantian biaya pembelian lensa dan bingkai kacamata setiap 2 (dua) tahun sekali dengan ketentuan plafon sistem reimbursement.",1.0,10448.97
+13,medium,cara ajukan WFA luar negeri?,"WFA luar kota atau luar negeri bisa diajukan oleh karyawan yang telah melewati masa probation 3 bulan, maksimal 10 hari kerja per semester, dan pengajuan wajib dilakukan di HRIS minimal H-7.","Maaf, saya hanya dapat membantu menjawab pertanyaan terkait kebijakan internal perusahaan.",0.0,1672.33
+14,medium,tunjangan lembur jam 21.00 dapat apa?,"Jika karyawan Exempt bekerja di kantor melebihi pukul 21.00 WIB, mereka mendapat kompensasi berupa meal allowance sebesar Rp 75.000.","1) Menurut Dokumen 2, tunjangan lembur (overtime) tidak dapat ditanggung oleh karyawan Non-Exempt (Level Staff dan Admin), namun akan mendapatkan kompensasi berupa meal allowance sebesar Rp 75.000, - jika bekerja di kantor melebihi pukul 21.00 WIB.
+
+2) Syaratnya adalah karyawan harus bekerja di kantor melebihi pukul 21.00 WIB untuk mendapatkan kompensasi meal allowance tersebut.",1.0,9995.14
+15,medium,AI enterprise wajib pakai apa?,"Untuk kebutuhan analisis data sensitif, karyawan wajib menggunakan portal internal TMD-GPT yang terintegrasi dengan Azure OpenAI Service perusahaan.","1) Berdasarkan kebijakan yang ada, karyawan tidak diperbolehkan menggunakan AI Enterprise untuk keperluan analisis data sensitif tanpa izin tertentu. Namun, untuk kebutuhan analisis data sensitif, karyawan wajib menggunakan portal internal ""TMD-GPT"" yang telah terintegrasi dengan Azure OpenAI Service perusahaan.
+
+2) Syarat utama untuk menggunakan AI Enterprise adalah tidak ada yang tercantum dalam konteks dokumen yang diberikan.",1.0,10955.8
+16,hard,gu berapa hari libur tahunan kalo udah kerja 4 taon terus gu staff senior?,"Dengan masa kerja 4 tahun, kamu memiliki jatah cuti tahunan dasar 12 hari kerja ditambah cuti loyalitas 1 hari per tahun di atas 3 tahun masa kerja, sehingga dapat menjadi 13 hari dengan batas total maksimal 18 hari.","1. Berdasarkan konteks dokumen, informasi tentang cuti tahunan tidak tersedia di Dokumen 1 dan Dokumen 3 yang diberikan. 
+
+2. Dalam Dokumen 4 terdapat kebijakan jam kerja fleksibel dan kebijakan work from office (WFO), namun tidak ada informasi tentang cuti tahunan.",0.5,10879.76
+17,hard,"manager klaim kacamata rusak brp max, bole gk softlens warn? kalo vp brp?","Manager dapat klaim kacamata maksimal Rp 2.500.000 dan VP dapat klaim maksimal Rp 4.000.000 setiap 2 tahun, dan softlens warna tidak ditanggung.","1) Menurut kebijakan TMD, klaim kacamata untuk manager (Level Manager) maksimal Rp 2.500.000,- dan tidak ditanggung jika kacamata hitam (sunglasses) atau lensa kosmetik (softlens warna). 
+Karyawan Level Supervisor ke atas (Exempt) tidak berhak atas upah lembur, namun akan mendapatkan kompensasi berupa meal.
+
+2) Karyawan Level VP - C-Level yang sudah melewati masa probatinya (probation) 3 bulan berhak mengajukan klaim kacamata dengan plafon maksimal Rp 4.000.000,- dan tidak ditanggung jika kacamata hitam (sunglasses) atau lensa kosmetik (softlens warna).",1.0,12163.38
+18,hard,wfo staff snr brp hari? rabu wajib ga? wfa luar negeri gimana?,"Staff dan Senior wajib WFO minimal 2 hari per minggu, hari Rabu adalah hari wajib WFO untuk seluruh divisi Tech & Product, dan WFA luar negeri dapat diajukan maksimal 10 hari kerja per semester lewat HRIS minimal H-7 setelah melewati masa probation 3 bulan.","Berikut adalah jawaban untuk pertanyaan pengguna:
+
+1. Hari wajib WFO bagi karyawan Level Staff & Senior adalah minimal 2 (dua) hari dalam seminggu, tetapi tidak disebutkan hari spesifiknya.
+
+2. Hari wajib WFA (bekerja dari luar kota/negeri) bagi karyawan yang telah melewati masa percobaan (probation) 3 bulan adalah setiap maksimal 10 hari kerja per semester, dan pengajuan wajib dilakukan di HRIS minimal H-7 hari sebelumnya.",1.0,11301.79
+19,hard,chatgpt bole masukin kode source? data nasabah? strategi apa gitu?,"Tidak boleh; kode program, data nasabah, dan strategi bisnis rahasia dilarang keras dimasukkan ke tools AI publik seperti ChatGPT Free dan Claude.ai.","Maaf, saya hanya dapat membantu menjawab pertanyaan terkait kebijakan internal perusahaan.",1.0,1645.45
+20,hard,cuti recharge wajib 5 hari lgp? potong cuti biasa? karyawan baru bole ga?,"Cuti recharge wajib diambil 5 hari kerja berturut-turut Senin–Jumat sekali setahun, memotong jatah cuti tahunan, dan hanya berlaku untuk karyawan yang telah bekerja minimal 12 bulan berturut-turut sehingga karyawan baru yang belum 12 bulan belum berhak.","1) Cuti Recharge yang diperlukan adalah selama 5 hari kerja berturut-turut (Senin-Jumat), dan ini memotong jatah cuti tahunan. 
+
+2) Informasi tentang pengakuan WFA tidak tersedia di konteks.
+
+3) Karyawan baru tidak boleh mengajukan Cuti Recharge wajib 5 hari lgp, karena belum mencapai masa kerja minimal 12 bulan berturut-turut.",1.0,9560.03
