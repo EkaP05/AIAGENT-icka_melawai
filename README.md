@@ -10,12 +10,12 @@ traceable answers.
 
 ## Technology Stack
 
--   **Language:** Python 3.10.12\
--   **Web Framework:** FastAPI\
--   **LLM Runtime:** Ollama (local LLM server)\
--   **LLM Models:** `llama3.2:3b` `qwen2.5:3b`\
+-   **Language:** Python 3.10.12
+-   **Web Framework:** FastAPI
+-   **LLM Runtime:** Ollama (local LLM server)
+-   **LLM Models:** `llama3.2:3b` `qwen2.5:3b`
 -   **Vector Database:** Local Chroma (via a custom
-    `VectorStore` wrapper with on-disk persistence)\
+    `VectorStore` wrapper with on-disk persistence)
 -   **ASGI Server:** Uvicorn
 
 ------------------------------------------------------------------------
@@ -24,8 +24,8 @@ traceable answers.
 
 ### 1. Prerequisites
 
--   Python 3.10 or newer\
--   Git\
+-   Python 3.10 or newer
+-   Git
 -   Ollama installed on your machine (Linux, macOS, or WSL)
 
 ### 2. Install Ollama and Pull Models
@@ -84,7 +84,7 @@ uvicorn app.main:app --reload
 
 Key URLs:
 
--   **Root:** http://localhost:8000/\
+-   **Root:** http://localhost:8000/
 -   **OpenAPI / Swagger UI:** http://localhost:8000/docs
 
 ------------------------------------------------------------------------
@@ -100,9 +100,9 @@ in the vector database.
 
 **Processing Steps:**
 
-1.  Save the uploaded file under `./data/documents/`.\
+1.  Save the uploaded file under `./data/documents/`.
 2.  Extract text and split it into overlapping chunks using `CHUNK_SIZE`
-    and `CHUNK_OVERLAP`.\
+    and `CHUNK_OVERLAP`.
 3.  Generate embeddings via Ollama and persist them to the vector store
     at `CHROMA_PERSIST_DIR`.
 
@@ -152,13 +152,13 @@ context-grounded answer.
 
 1.  Normalize the question text (for example, converting informal slang
     such as "gu/gw/gue" to "saya", or abbreviations like "thn" to
-    "tahun") to improve embedding quality.\
+    "tahun") to improve embedding quality.
 2.  Retrieve the top `TOP_K_RESULTS` most relevant chunks from the
     vector store.\
 3.  Construct a prompt consisting of:
-    -   A domain-specific system prompt for HR policies\
-    -   Retrieved context chunks\
-    -   The normalized user question\
+    -   A domain-specific system prompt for HR policies
+    -   Retrieved context chunks
+    -   The normalized user question
 4.  Invoke the LLM through Ollama and return the answer along with
     source metadata.
 
@@ -240,8 +240,8 @@ on-disk persistence under `CHROMA_PERSIST_DIR`.
 
 Each chunk is stored with:
 
--   A document identifier\
--   Optional metadata (for example, section name or page number)\
+-   A document identifier
+-   Optional metadata (for example, section name or page number)
 -   A vector embedding for similarity search
 
 This design satisfies the requirement for a simple, local vector
@@ -277,23 +277,23 @@ scaling or migration:
 
 ### Document Storage
 
--   **Current:** Local filesystem (`./data/documents`)\
+-   **Current:** Local filesystem (`./data/documents`)
 -   **Future:** Azure Blob Storage or Microsoft Fabric Lakehouse
 
 ### Vector Index
 
--   **Current:** Local Chroma/FAISS-style index\
+-   **Current:** Local Chroma/FAISS-style index
 -   **Future:** Azure AI Search or a vector index within Fabric
 
 ### LLM Backend
 
--   **Current:** Ollama with local models\
+-   **Current:** Ollama with local models
 -   **Future:** Azure OpenAI Service or internal enterprise endpoints
     (using the same `LLMService` interface with different configuration)
 
 ### API Layer
 
--   **Current:** FastAPI with Uvicorn\
+-   **Current:** FastAPI with Uvicorn
 -   **Future:** Containerized deployment to Azure App Service, Azure
     Container Apps, or AKS with minimal code changes
 
